@@ -42,7 +42,6 @@ public class UserController {
 	public User register(@RequestBody User user) {
 		logger.info("User registration API called");
 		user.setPassword(encoder.encode(user.getPassword()));
-//		System.out.println(user.getPassword());
 		service.saveUser(user);
 		 logger.info("User registered successfully: {}",
 	                user.getUsername());

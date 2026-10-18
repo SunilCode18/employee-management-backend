@@ -1,0 +1,69 @@
+2026-10-18 12:30:11,211 - com.springboot.app.EmployeeManagementApplication - [Starting EmployeeManagementApplication using Java 21.0.5 with PID 9188 (C:\Users\sunil kumar\OneDrive\Desktop\SpringBootProject\EmployeeManagement\target\classes started by sunil kumar in C:\Users\sunil kumar\OneDrive\Desktop\SpringBootProject\EmployeeManagement)] - (INFO) - Starting EmployeeManagementApplication using Java 21.0.5 with PID 9188 (C:\Users\sunil kumar\OneDrive\Desktop\SpringBootProject\EmployeeManagement\target\classes started by sunil kumar in C:\Users\sunil kumar\OneDrive\Desktop\SpringBootProject\EmployeeManagement) - 
+2026-10-18 12:30:11,219 - com.springboot.app.EmployeeManagementApplication - [No active profile set, falling back to 1 default profile: "default"] - (INFO) - No active profile set, falling back to 1 default profile: "default" - 
+2026-10-18 12:30:11,495 - org.hibernate.validator.internal.util.Version - [HV000001: Hibernate Validator 9.1.3.Final] - (INFO) - HV000001: Hibernate Validator 9.1.3.Final - 
+2026-10-18 12:30:12,004 - org.springframework.data.repository.config.RepositoryConfigurationDelegate - [Bootstrapping Spring Data JPA repositories in DEFAULT mode.] - (INFO) - Bootstrapping Spring Data JPA repositories in DEFAULT mode. - 
+2026-10-18 12:30:12,050 - org.springframework.data.repository.config.RepositoryConfigurationDelegate - [Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.] - (INFO) - Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces. - 
+2026-10-18 12:30:12,465 - org.springframework.boot.tomcat.TomcatWebServer - [Tomcat initialized with port 8090 (http)] - (INFO) - Tomcat initialized with port 8090 (http) - 
+2026-10-18 12:30:12,477 - org.apache.coyote.http11.Http11NioProtocol - [Initializing ProtocolHandler ["http-nio-8090"]] - (INFO) - Initializing ProtocolHandler ["http-nio-8090"] - 
+2026-10-18 12:30:12,479 - org.apache.catalina.core.StandardService - [Starting service [Tomcat]] - (INFO) - Starting service [Tomcat] - 
+2026-10-18 12:30:12,479 - org.apache.catalina.core.StandardEngine - [Starting Servlet engine: [Apache Tomcat/11.0.24]] - (INFO) - Starting Servlet engine: [Apache Tomcat/11.0.24] - 
+2026-10-18 12:30:12,528 - org.springframework.boot.web.context.servlet.WebApplicationContextInitializer - [Root WebApplicationContext: initialization completed in 1271 ms] - (INFO) - Root WebApplicationContext: initialization completed in 1271 ms - 
+2026-10-18 12:30:12,648 - org.hibernate.orm.jpa - [HHH008540: Processing PersistenceUnitInfo [name: default]] - (INFO) - HHH008540: Processing PersistenceUnitInfo [name: default] - 
+2026-10-18 12:30:12,688 - org.hibernate.orm.core - [HHH000001: Hibernate ORM core version 7.4.5.Final] - (INFO) - HHH000001: Hibernate ORM core version 7.4.5.Final - 
+2026-10-18 12:30:13,008 - org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - [No LoadTimeWeaver setup: ignoring JPA class transformer] - (INFO) - No LoadTimeWeaver setup: ignoring JPA class transformer - 
+2026-10-18 12:30:13,034 - com.zaxxer.hikari.HikariDataSource - [HikariPool-1 - Starting...] - (INFO) - HikariPool-1 - Starting... - 
+2026-10-18 12:30:13,283 - com.zaxxer.hikari.pool.HikariPool - [HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c86c486] - (INFO) - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c86c486 - 
+2026-10-18 12:30:13,284 - com.zaxxer.hikari.HikariDataSource - [HikariPool-1 - Start completed.] - (INFO) - HikariPool-1 - Start completed. - 
+2026-10-18 12:30:13,424 - org.hibernate.orm.connections.pooling - [HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/employeemanagement]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.34
+	Default catalog/schema: employeemanagement/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown] - (INFO) - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/employeemanagement]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.34
+	Default catalog/schema: employeemanagement/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown - 
+2026-10-18 12:30:14,176 - org.hibernate.orm.core - [HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)] - (INFO) - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) - 
+2026-10-18 12:30:14,288 - org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - [Initialized JPA EntityManagerFactory for persistence unit 'default'] - (INFO) - Initialized JPA EntityManagerFactory for persistence unit 'default' - 
+2026-10-18 12:30:14,338 - org.springframework.data.jpa.repository.query.QueryEnhancerFactories - [Hibernate is in classpath; If applicable, HQL parser will be used.] - (INFO) - Hibernate is in classpath; If applicable, HQL parser will be used. - 
+2026-10-18 12:30:14,483 - org.springframework.boot.web.servlet.RegistrationBean - [Filter jwtFilterRegistration was not registered (disabled)] - (INFO) - Filter jwtFilterRegistration was not registered (disabled) - 
+2026-10-18 12:30:14,569 - org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - [Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR] - (WARN) - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR - 
+2026-10-18 12:30:14,664 - org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning] - (WARN) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning - 
+2026-10-18 12:30:15,160 - org.apache.coyote.http11.Http11NioProtocol - [Starting ProtocolHandler ["http-nio-8090"]] - (INFO) - Starting ProtocolHandler ["http-nio-8090"] - 
+2026-10-18 12:30:15,176 - org.springframework.boot.tomcat.TomcatWebServer - [Tomcat started on port 8090 (http) with context path '/'] - (INFO) - Tomcat started on port 8090 (http) with context path '/' - 
+2026-10-18 12:30:15,182 - com.springboot.app.EmployeeManagementApplication - [Started EmployeeManagementApplication in 4.289 seconds (process running for 5.218)] - (INFO) - Started EmployeeManagementApplication in 4.289 seconds (process running for 5.218) - 
+2026-10-18 12:30:21,710 - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - [Initializing Spring DispatcherServlet 'dispatcherServlet'] - (INFO) - Initializing Spring DispatcherServlet 'dispatcherServlet' - 
+2026-10-18 12:30:21,878 - com.springboot.app.controller.UserController - [User registration API called] - (INFO) - User registration API called - 
+2026-10-18 12:30:22,180 - com.springboot.app.controller.UserController - [User registered successfully: Jav1a] - (INFO) - User registered successfully: Jav1a - 
+2026-10-18 12:30:24,959 - com.springboot.app.controller.UserController - [Login API called for username: Jav1a] - (INFO) - Login API called for username: Jav1a - 
+2026-10-18 12:30:25,672 - com.springboot.app.controller.UserController - [User authenticated successfully: Jav1a] - (INFO) - User authenticated successfully: Jav1a - 
+2026-10-18 12:31:09,036 - com.springboot.app.controller.UserController - [Login API called for username: Jav1a] - (INFO) - Login API called for username: Jav1a - 
+2026-10-18 12:31:09,196 - com.springboot.app.controller.UserController - [User authenticated successfully: Jav1a] - (INFO) - User authenticated successfully: Jav1a - 
+2026-10-18 12:31:11,592 - com.springboot.app.controller.UserController - [Login API called for username: Jav1a] - (INFO) - Login API called for username: Jav1a - 
+2026-10-18 12:31:11,691 - com.springboot.app.controller.UserController - [User authenticated successfully: Jav1a] - (INFO) - User authenticated successfully: Jav1a - 
+2026-10-18 12:31:13,129 - com.springboot.app.controller.UserController - [Login API called for username: Jav1a] - (INFO) - Login API called for username: Jav1a - 
+2026-10-18 12:31:13,253 - com.springboot.app.controller.UserController - [User authenticated successfully: Jav1a] - (INFO) - User authenticated successfully: Jav1a - 
+2026-10-18 12:31:14,349 - com.springboot.app.controller.UserController - [Login API called for username: Jav1a] - (INFO) - Login API called for username: Jav1a - 
+2026-10-18 12:31:14,463 - com.springboot.app.controller.UserController - [User authenticated successfully: Jav1a] - (INFO) - User authenticated successfully: Jav1a - 
+2026-10-18 12:31:32,645 - org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - [Application shutdown requested.] - (INFO) - Application shutdown requested. - 
+2026-10-18 12:31:32,649 - org.springframework.boot.tomcat.GracefulShutdown - [Commencing graceful shutdown. Waiting for active requests to complete] - (INFO) - Commencing graceful shutdown. Waiting for active requests to complete - 
+2026-10-18 12:31:32,651 - org.apache.coyote.http11.Http11NioProtocol - [Pausing ProtocolHandler ["http-nio-8090"]] - (INFO) - Pausing ProtocolHandler ["http-nio-8090"] - 
+2026-10-18 12:31:32,664 - org.springframework.boot.tomcat.GracefulShutdown - [Graceful shutdown complete] - (INFO) - Graceful shutdown complete - 
+2026-10-18 12:31:32,665 - org.apache.coyote.http11.Http11NioProtocol - [Stopping ProtocolHandler ["http-nio-8090"]] - (INFO) - Stopping ProtocolHandler ["http-nio-8090"] - 
+2026-10-18 12:31:32,670 - org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - [Closing JPA EntityManagerFactory for persistence unit 'default'] - (INFO) - Closing JPA EntityManagerFactory for persistence unit 'default' - 
+2026-10-18 12:31:32,672 - com.zaxxer.hikari.HikariDataSource - [HikariPool-1 - Shutdown initiated...] - (INFO) - HikariPool-1 - Shutdown initiated... - 
+2026-10-18 12:31:32,678 - com.zaxxer.hikari.HikariDataSource - [HikariPool-1 - Shutdown completed.] - (INFO) - HikariPool-1 - Shutdown completed. - 

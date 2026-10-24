@@ -3,6 +3,7 @@ package com.springboot.app.controller;
 import java.net.http.HttpResponse;
 import java.util.List;
 
+import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
@@ -72,6 +73,7 @@ public class EmployeeController {
 	@PostMapping("/addEmployee")
 	public ResponseEntity<EmployeeResponseDTO> addEmployee(@Valid @RequestBody EmployeeRequestDTO empdto) {
 		EmployeeResponseDTO employee = employeeService.addEmployee(empdto);
+		
 //		return new ResponseEntity<>(employee, HttpStatus.CREATED);
 		return ResponseEntity.status(HttpStatus.CREATED).body(employee);
 	}
@@ -104,4 +106,24 @@ public class EmployeeController {
 		List<EmployeeResponseDTO> employees = employeeService.searchEmployees(keyword);
 		return ResponseEntity.ok().body(employees);
 	}
+	
+	@GetMapping("/search/filter")
+	public List<EmployeeResponseDTO> filterEmployees(@RequestParam(required = false) String department, @RequestParam(required=false) String designation, @RequestParam(required = false) String status){
+		return employeeService.filterBySearch(department, designation, status);
+		
+	}
+	
+	@GetMapping("/admin/employees/page")
+	public ResponseEntity<Page<EmployeeResponseDTO>> getEmployeesWithPagination(
+			@RequestParam(defaultValue = "0") int page,
+			@RequestParam(defaultValue = "5") int size,
+			@RequestParam(defaultValue = "id") String sortBy,
+			@RequestParam(defaultValue = "asc") String direction
+			){
+		
+		Page<EmployeeResponseDTO> emplPage = employeeService.getEmployeesWithPagination(page, size, sortBy, direction);
+		return ResponseEntity.ok(emplPage);
+	}
+	
+
 }

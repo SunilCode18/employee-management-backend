@@ -50,5 +50,19 @@ public class GlobalExceptionHandler {
 		
 		return ResponseEntity.status(HttpStatus.NOT_FOUND).body(errordto);
 	}
+	
+	@ExceptionHandler(IllegalArgumentException.class)
+	public ResponseEntity<ErrorResponseDTO> handleIllegalArgument(
+	        IllegalArgumentException ex) {
+
+	    ErrorResponseDTO error = new ErrorResponseDTO(
+	            HttpStatus.BAD_REQUEST.value(),
+	            ex.getMessage()
+	    );
+
+	    return ResponseEntity
+	            .status(HttpStatus.BAD_REQUEST)
+	            .body(error);
+	}
 
 }

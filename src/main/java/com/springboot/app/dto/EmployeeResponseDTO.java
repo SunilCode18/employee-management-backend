@@ -1,20 +1,27 @@
 package com.springboot.app.dto;
 
+import java.time.LocalDateTime;
+
+
 public class EmployeeResponseDTO {
 	
 	private long id;
 	private String name;
 	private String phone;
-	private String department;
+	private DepartmentResponseDTO department;
 	private String designation;
 	private double salary;
+	private String status;
+	
+	private LocalDateTime createdAt;
+	private LocalDateTime updatedAt;
 	
 	public EmployeeResponseDTO() {
 	}
 	
 	
 
-	public EmployeeResponseDTO(long id, String name, String phone, String department, String designation, double salary) {
+	public EmployeeResponseDTO(long id, String name, String phone, DepartmentResponseDTO department, String designation, double salary, LocalDateTime createdAt, LocalDateTime updatedAt) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -22,6 +29,8 @@ public class EmployeeResponseDTO {
 		this.department = department;
 		this.designation = designation;
 		this.salary = salary;
+		this.createdAt = createdAt;
+        this.updatedAt = updatedAt;
 	}
 
 	public long getId() {
@@ -48,11 +57,11 @@ public class EmployeeResponseDTO {
 		this.phone = phone;
 	}
 
-	public String getDepartment() {
+	public DepartmentResponseDTO getDepartment() {
 		return department;
 	}
 
-	public void setDepartment(String department) {
+	public void setDepartment(DepartmentResponseDTO department) {
 		this.department = department;
 	}
 
@@ -70,6 +79,31 @@ public class EmployeeResponseDTO {
 
 	public void setSalary(double salary) {
 		this.salary = salary;
+	}
+	
+	public String getStatus() {
+		return status;
+	}
+	
+	public void setStatus(String status) {
+		this.status = status;
+	}
+	
+	
+	public LocalDateTime getCreatedAt() {
+	    return createdAt;
+	}
+
+	public void setCreatedAt(LocalDateTime createdAt) {
+	    this.createdAt = createdAt;
+	}
+
+	public LocalDateTime getUpdatedAt() {
+	    return updatedAt;
+	}
+
+	public void setUpdatedAt(LocalDateTime updatedAt) {
+	    this.updatedAt = updatedAt;
 	}
 	
 	

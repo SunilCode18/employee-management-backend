@@ -42,28 +42,52 @@ public class UserController {
 	public User register(@RequestBody User user) {
 		logger.info("User registration API called");
 		user.setPassword(encoder.encode(user.getPassword()));
+		user.setRole("EMPLOYEE");
 		service.saveUser(user);
 		 logger.info("User registered successfully: {}",
 	                user.getUsername());
 		return user;
 	}
 	
+//	@PostMapping("/login")
+//	public String login(@RequestBody User user) {
+//		logger.info("Login API called for username: {}",
+//                user.getUsername());
+//		Authentication authentication = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(user.getUsername(), user.getPassword()));
+//		System.out.println("Login API Called....");
+//		if(authentication.isAuthenticated()) {
+//			  logger.info("User authenticated successfully: {}",
+//	                    user.getUsername());
+//			return jwtService.generateToken(user.getUsername());
+//		}else {
+//			  logger.warn("Authentication failed for username: {}",
+//	                    user.getUsername());
+//			return "Login Failed";
+//		}
+//		
+//	}
+	
 	@PostMapping("/login")
 	public String login(@RequestBody User user) {
-		logger.info("Login API called for username: {}",
-                user.getUsername());
-		Authentication authentication = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(user.getUsername(), user.getPassword()));
-		System.out.println("Login API Called....");
-		if(authentication.isAuthenticated()) {
-			  logger.info("User authenticated successfully: {}",
-	                    user.getUsername());
-			return jwtService.generateToken(user.getUsername());
-		}else {
-			  logger.warn("Authentication failed for username: {}",
-	                    user.getUsername());
-			return "Login Failed";
-		}
-		
+
+	    System.out.println("LOGIN API CALLED");
+	    System.out.println("Username received: " + user.getUsername());
+
+	    logger.info("Login API called for username: {}", user.getUsername());
+
+	    Authentication authentication =
+	        authenticationManager.authenticate(
+	            new UsernamePasswordAuthenticationToken(
+	                user.getUsername(),
+	                user.getPassword()
+	            )
+	        );
+
+	    if (authentication.isAuthenticated()) {
+	        return jwtService.generateToken(user.getUsername());
+	    }
+
+	    return "Login Failed";
 	}
 
 }

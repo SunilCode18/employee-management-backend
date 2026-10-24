@@ -54,4 +54,6 @@ public interface EmployeeRepository extends JpaRepository<Employee, Long>{
 		        @Param("designation") String designation,
 		        @Param("status") String status
 		);
+
+	Boolean existsByDepartmentId(long id);
 }

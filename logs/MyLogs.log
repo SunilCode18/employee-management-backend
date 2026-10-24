@@ -8319,3 +8319,159 @@ java.lang.IllegalArgumentException: Status must be ACTIVE or INACTIVE
 2026-10-24 17:36:08,954 - org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - [Closing JPA EntityManagerFactory for persistence unit 'default'] - (INFO) - Closing JPA EntityManagerFactory for persistence unit 'default' - 
 2026-10-24 17:36:08,997 - com.zaxxer.hikari.HikariDataSource - [HikariPool-1 - Shutdown initiated...] - (INFO) - HikariPool-1 - Shutdown initiated... - 
 2026-10-24 17:36:09,046 - com.zaxxer.hikari.HikariDataSource - [HikariPool-1 - Shutdown completed.] - (INFO) - HikariPool-1 - Shutdown completed. - 
+2026-10-24 21:41:17,599 - com.springboot.app.EmployeeManagementApplication - [Starting EmployeeManagementApplication using Java 21.0.5 with PID 23440 (C:\Users\sunil kumar\OneDrive\Desktop\SpringBootProject\EmployeeManagement\target\classes started by sunil kumar in C:\Users\sunil kumar\OneDrive\Desktop\SpringBootProject\EmployeeManagement)] - (INFO) - Starting EmployeeManagementApplication using Java 21.0.5 with PID 23440 (C:\Users\sunil kumar\OneDrive\Desktop\SpringBootProject\EmployeeManagement\target\classes started by sunil kumar in C:\Users\sunil kumar\OneDrive\Desktop\SpringBootProject\EmployeeManagement) - 
+2026-10-24 21:41:17,613 - com.springboot.app.EmployeeManagementApplication - [No active profile set, falling back to 1 default profile: "default"] - (INFO) - No active profile set, falling back to 1 default profile: "default" - 
+2026-10-24 21:41:18,076 - org.hibernate.validator.internal.util.Version - [HV000001: Hibernate Validator 9.1.3.Final] - (INFO) - HV000001: Hibernate Validator 9.1.3.Final - 
+2026-10-24 21:41:19,337 - org.springframework.data.repository.config.RepositoryConfigurationDelegate - [Bootstrapping Spring Data JPA repositories in DEFAULT mode.] - (INFO) - Bootstrapping Spring Data JPA repositories in DEFAULT mode. - 
+2026-10-24 21:41:19,537 - org.springframework.data.repository.config.RepositoryConfigurationDelegate - [Finished Spring Data repository scanning in 179 ms. Found 3 JPA repository interfaces.] - (INFO) - Finished Spring Data repository scanning in 179 ms. Found 3 JPA repository interfaces. - 
+2026-10-24 21:41:21,979 - org.springframework.boot.tomcat.TomcatWebServer - [Tomcat initialized with port 8090 (http)] - (INFO) - Tomcat initialized with port 8090 (http) - 
+2026-10-24 21:41:22,034 - org.apache.coyote.http11.Http11NioProtocol - [Initializing ProtocolHandler ["http-nio-8090"]] - (INFO) - Initializing ProtocolHandler ["http-nio-8090"] - 
+2026-10-24 21:41:22,042 - org.apache.catalina.core.StandardService - [Starting service [Tomcat]] - (INFO) - Starting service [Tomcat] - 
+2026-10-24 21:41:22,042 - org.apache.catalina.core.StandardEngine - [Starting Servlet engine: [Apache Tomcat/11.0.24]] - (INFO) - Starting Servlet engine: [Apache Tomcat/11.0.24] - 
+2026-10-24 21:41:22,270 - org.springframework.boot.web.context.servlet.WebApplicationContextInitializer - [Root WebApplicationContext: initialization completed in 4602 ms] - (INFO) - Root WebApplicationContext: initialization completed in 4602 ms - 
+2026-10-24 21:41:22,808 - org.hibernate.orm.jpa - [HHH008540: Processing PersistenceUnitInfo [name: default]] - (INFO) - HHH008540: Processing PersistenceUnitInfo [name: default] - 
+2026-10-24 21:41:23,033 - org.hibernate.orm.core - [HHH000001: Hibernate ORM core version 7.4.5.Final] - (INFO) - HHH000001: Hibernate ORM core version 7.4.5.Final - 
+2026-10-24 21:41:24,676 - org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - [No LoadTimeWeaver setup: ignoring JPA class transformer] - (INFO) - No LoadTimeWeaver setup: ignoring JPA class transformer - 
+2026-10-24 21:41:24,803 - com.zaxxer.hikari.HikariDataSource - [HikariPool-1 - Starting...] - (INFO) - HikariPool-1 - Starting... - 
+2026-10-24 21:41:26,122 - com.zaxxer.hikari.pool.HikariPool - [HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2568611c] - (INFO) - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2568611c - 
+2026-10-24 21:41:26,129 - com.zaxxer.hikari.HikariDataSource - [HikariPool-1 - Start completed.] - (INFO) - HikariPool-1 - Start completed. - 
+2026-10-24 21:41:26,532 - org.hibernate.orm.connections.pooling - [HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/employeemanagement]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.34
+	Default catalog/schema: employeemanagement/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown] - (INFO) - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/employeemanagement]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.34
+	Default catalog/schema: employeemanagement/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown - 
+2026-10-24 21:41:29,903 - org.hibernate.orm.core - [HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)] - (INFO) - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) - 
+2026-10-24 21:41:30,189 - org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - [Initialized JPA EntityManagerFactory for persistence unit 'default'] - (INFO) - Initialized JPA EntityManagerFactory for persistence unit 'default' - 
+2026-10-24 21:41:30,409 - org.springframework.data.jpa.repository.query.QueryEnhancerFactories - [Hibernate is in classpath; If applicable, HQL parser will be used.] - (INFO) - Hibernate is in classpath; If applicable, HQL parser will be used. - 
+2026-10-24 21:41:31,041 - org.springframework.boot.web.servlet.RegistrationBean - [Filter jwtFilterRegistration was not registered (disabled)] - (INFO) - Filter jwtFilterRegistration was not registered (disabled) - 
+2026-10-24 21:41:35,058 - org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - [Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider] - (INFO) - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider - 
+2026-10-24 21:41:35,058 - org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - [Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR] - (WARN) - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR - 
+2026-10-24 21:41:35,439 - org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning] - (WARN) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning - 
+2026-10-24 21:41:36,216 - org.springframework.security.web.DefaultSecurityFilterChain - [Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter] - (DEBUG) - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter - 
+2026-10-24 21:41:37,640 - org.apache.coyote.http11.Http11NioProtocol - [Starting ProtocolHandler ["http-nio-8090"]] - (INFO) - Starting ProtocolHandler ["http-nio-8090"] - 
+2026-10-24 21:41:37,724 - org.springframework.boot.tomcat.TomcatWebServer - [Tomcat started on port 8090 (http) with context path '/'] - (INFO) - Tomcat started on port 8090 (http) with context path '/' - 
+2026-10-24 21:41:37,747 - com.springboot.app.EmployeeManagementApplication - [Started EmployeeManagementApplication in 20.884 seconds (process running for 22.046)] - (INFO) - Started EmployeeManagementApplication in 20.884 seconds (process running for 22.046) - 
+2026-10-24 21:42:23,262 - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - [Initializing Spring DispatcherServlet 'dispatcherServlet'] - (INFO) - Initializing Spring DispatcherServlet 'dispatcherServlet' - 
+2026-10-24 21:42:23,305 - org.springframework.security.web.FilterChainProxy - [Securing POST /login] - (DEBUG) - Securing POST /login - 
+2026-10-24 21:42:23,340 - org.springframework.security.web.authentication.AnonymousAuthenticationFilter - [Set SecurityContextHolder to anonymous SecurityContext] - (DEBUG) - Set SecurityContextHolder to anonymous SecurityContext - 
+2026-10-24 21:42:23,340 - org.springframework.security.web.FilterChainProxy - [Secured POST /login] - (DEBUG) - Secured POST /login - 
+2026-10-24 21:42:23,722 - com.springboot.app.controller.UserController - [Login API called for username: admin] - (INFO) - Login API called for username: admin - 
+2026-10-24 21:42:24,845 - org.springframework.security.authentication.dao.DaoAuthenticationProvider - [Authenticated user] - (DEBUG) - Authenticated user - 
+2026-10-24 21:43:21,389 - org.springframework.security.web.FilterChainProxy - [Securing GET /admin/departments] - (DEBUG) - Securing GET /admin/departments - 
+2026-10-24 21:43:21,682 - org.springframework.security.web.FilterChainProxy - [Secured GET /admin/departments] - (DEBUG) - Secured GET /admin/departments - 
+2026-10-24 21:43:35,006 - org.springframework.security.web.FilterChainProxy - [Securing POST /admin/departments?dept=Non%20Voice] - (DEBUG) - Securing POST /admin/departments?dept=Non%20Voice - 
+2026-10-24 21:43:35,020 - org.springframework.security.web.FilterChainProxy - [Secured POST /admin/departments?dept=Non%20Voice] - (DEBUG) - Secured POST /admin/departments?dept=Non%20Voice - 
+2026-10-24 21:43:47,213 - org.springframework.security.web.FilterChainProxy - [Securing GET /admin/departments] - (DEBUG) - Securing GET /admin/departments - 
+2026-10-24 21:43:47,226 - org.springframework.security.web.FilterChainProxy - [Secured GET /admin/departments] - (DEBUG) - Secured GET /admin/departments - 
+2026-10-24 21:44:00,534 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/7] - (DEBUG) - Securing DELETE /admin/departments/7 - 
+2026-10-24 21:44:00,545 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/7] - (DEBUG) - Secured DELETE /admin/departments/7 - 
+2026-10-24 21:44:07,308 - org.springframework.security.web.FilterChainProxy - [Securing GET /admin/departments] - (DEBUG) - Securing GET /admin/departments - 
+2026-10-24 21:44:07,322 - org.springframework.security.web.FilterChainProxy - [Secured GET /admin/departments] - (DEBUG) - Secured GET /admin/departments - 
+2026-10-24 21:44:16,291 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/4] - (DEBUG) - Securing DELETE /admin/departments/4 - 
+2026-10-24 21:44:16,307 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/4] - (DEBUG) - Secured DELETE /admin/departments/4 - 
+2026-10-24 21:56:34,225 - com.zaxxer.hikari.pool.HikariPool - [HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m37s795ms638µs200ns).] - (WARN) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m37s795ms638µs200ns). - 
+2026-10-24 22:06:46,186 - com.zaxxer.hikari.pool.HikariPool - [HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m10s721ms813µs200ns).] - (WARN) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m10s721ms813µs200ns). - 
+2026-10-24 22:08:39,154 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/1] - (DEBUG) - Securing DELETE /admin/departments/1 - 
+2026-10-24 22:08:39,204 - org.springframework.security.web.FilterChainProxy - [Securing GET /error] - (DEBUG) - Securing GET /error - 
+2026-10-24 22:08:39,204 - org.springframework.security.web.authentication.AnonymousAuthenticationFilter - [Set SecurityContextHolder to anonymous SecurityContext] - (DEBUG) - Set SecurityContextHolder to anonymous SecurityContext - 
+2026-10-24 22:08:39,211 - org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - [Pre-authenticated entry point called. Rejecting access] - (DEBUG) - Pre-authenticated entry point called. Rejecting access - 
+2026-10-24 22:08:47,272 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/2] - (DEBUG) - Securing DELETE /admin/departments/2 - 
+2026-10-24 22:08:47,277 - org.springframework.security.web.FilterChainProxy - [Securing GET /error] - (DEBUG) - Securing GET /error - 
+2026-10-24 22:08:47,279 - org.springframework.security.web.authentication.AnonymousAuthenticationFilter - [Set SecurityContextHolder to anonymous SecurityContext] - (DEBUG) - Set SecurityContextHolder to anonymous SecurityContext - 
+2026-10-24 22:08:47,280 - org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - [Pre-authenticated entry point called. Rejecting access] - (DEBUG) - Pre-authenticated entry point called. Rejecting access - 
+2026-10-24 22:08:55,454 - org.springframework.security.web.FilterChainProxy - [Securing POST /login] - (DEBUG) - Securing POST /login - 
+2026-10-24 22:08:55,454 - org.springframework.security.web.authentication.AnonymousAuthenticationFilter - [Set SecurityContextHolder to anonymous SecurityContext] - (DEBUG) - Set SecurityContextHolder to anonymous SecurityContext - 
+2026-10-24 22:08:55,457 - org.springframework.security.web.FilterChainProxy - [Secured POST /login] - (DEBUG) - Secured POST /login - 
+2026-10-24 22:08:55,460 - com.springboot.app.controller.UserController - [Login API called for username: admin] - (INFO) - Login API called for username: admin - 
+2026-10-24 22:08:55,758 - org.springframework.security.authentication.dao.DaoAuthenticationProvider - [Authenticated user] - (DEBUG) - Authenticated user - 
+2026-10-24 22:09:08,052 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/1] - (DEBUG) - Securing DELETE /admin/departments/1 - 
+2026-10-24 22:09:08,069 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/1] - (DEBUG) - Secured DELETE /admin/departments/1 - 
+2026-10-24 22:09:10,900 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/2] - (DEBUG) - Securing DELETE /admin/departments/2 - 
+2026-10-24 22:09:10,917 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/2] - (DEBUG) - Secured DELETE /admin/departments/2 - 
+2026-10-24 22:09:12,718 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/] - (DEBUG) - Securing DELETE /admin/departments/ - 
+2026-10-24 22:09:12,729 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/] - (DEBUG) - Secured DELETE /admin/departments/ - 
+2026-10-24 22:09:12,794 - org.springframework.security.web.FilterChainProxy - [Securing GET /error] - (DEBUG) - Securing GET /error - 
+2026-10-24 22:09:12,794 - org.springframework.security.web.authentication.AnonymousAuthenticationFilter - [Set SecurityContextHolder to anonymous SecurityContext] - (DEBUG) - Set SecurityContextHolder to anonymous SecurityContext - 
+2026-10-24 22:09:12,794 - org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - [Pre-authenticated entry point called. Rejecting access] - (DEBUG) - Pre-authenticated entry point called. Rejecting access - 
+2026-10-24 22:09:16,120 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/4] - (DEBUG) - Securing DELETE /admin/departments/4 - 
+2026-10-24 22:09:16,134 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/4] - (DEBUG) - Secured DELETE /admin/departments/4 - 
+2026-10-24 22:09:22,231 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/3] - (DEBUG) - Securing DELETE /admin/departments/3 - 
+2026-10-24 22:09:22,244 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/3] - (DEBUG) - Secured DELETE /admin/departments/3 - 
+2026-10-24 22:09:26,524 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/1] - (DEBUG) - Securing DELETE /admin/departments/1 - 
+2026-10-24 22:09:26,539 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/1] - (DEBUG) - Secured DELETE /admin/departments/1 - 
+2026-10-24 22:09:28,310 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/] - (DEBUG) - Securing DELETE /admin/departments/ - 
+2026-10-24 22:09:28,320 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/] - (DEBUG) - Secured DELETE /admin/departments/ - 
+2026-10-24 22:09:28,369 - org.springframework.security.web.FilterChainProxy - [Securing GET /error] - (DEBUG) - Securing GET /error - 
+2026-10-24 22:09:28,369 - org.springframework.security.web.authentication.AnonymousAuthenticationFilter - [Set SecurityContextHolder to anonymous SecurityContext] - (DEBUG) - Set SecurityContextHolder to anonymous SecurityContext - 
+2026-10-24 22:09:28,371 - org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - [Pre-authenticated entry point called. Rejecting access] - (DEBUG) - Pre-authenticated entry point called. Rejecting access - 
+2026-10-24 22:09:31,494 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/3] - (DEBUG) - Securing DELETE /admin/departments/3 - 
+2026-10-24 22:09:31,511 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/3] - (DEBUG) - Secured DELETE /admin/departments/3 - 
+2026-10-24 22:09:33,494 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/2] - (DEBUG) - Securing DELETE /admin/departments/2 - 
+2026-10-24 22:09:33,504 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/2] - (DEBUG) - Secured DELETE /admin/departments/2 - 
+2026-10-24 22:09:47,221 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/] - (DEBUG) - Securing DELETE /admin/departments/ - 
+2026-10-24 22:09:47,228 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/] - (DEBUG) - Secured DELETE /admin/departments/ - 
+2026-10-24 22:09:47,242 - org.springframework.security.web.FilterChainProxy - [Securing GET /error] - (DEBUG) - Securing GET /error - 
+2026-10-24 22:09:47,242 - org.springframework.security.web.authentication.AnonymousAuthenticationFilter - [Set SecurityContextHolder to anonymous SecurityContext] - (DEBUG) - Set SecurityContextHolder to anonymous SecurityContext - 
+2026-10-24 22:09:47,242 - org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - [Pre-authenticated entry point called. Rejecting access] - (DEBUG) - Pre-authenticated entry point called. Rejecting access - 
+2026-10-24 22:09:48,778 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/1] - (DEBUG) - Securing DELETE /admin/departments/1 - 
+2026-10-24 22:09:48,791 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/1] - (DEBUG) - Secured DELETE /admin/departments/1 - 
+2026-10-24 22:09:50,222 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/1] - (DEBUG) - Securing DELETE /admin/departments/1 - 
+2026-10-24 22:09:50,242 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/1] - (DEBUG) - Secured DELETE /admin/departments/1 - 
+2026-10-24 22:09:51,243 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/1] - (DEBUG) - Securing DELETE /admin/departments/1 - 
+2026-10-24 22:09:51,253 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/1] - (DEBUG) - Secured DELETE /admin/departments/1 - 
+2026-10-24 22:09:53,260 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/] - (DEBUG) - Securing DELETE /admin/departments/ - 
+2026-10-24 22:09:53,277 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/] - (DEBUG) - Secured DELETE /admin/departments/ - 
+2026-10-24 22:09:53,285 - org.springframework.security.web.FilterChainProxy - [Securing GET /error] - (DEBUG) - Securing GET /error - 
+2026-10-24 22:09:53,285 - org.springframework.security.web.authentication.AnonymousAuthenticationFilter - [Set SecurityContextHolder to anonymous SecurityContext] - (DEBUG) - Set SecurityContextHolder to anonymous SecurityContext - 
+2026-10-24 22:09:53,285 - org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - [Pre-authenticated entry point called. Rejecting access] - (DEBUG) - Pre-authenticated entry point called. Rejecting access - 
+2026-10-24 22:09:54,414 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/2] - (DEBUG) - Securing DELETE /admin/departments/2 - 
+2026-10-24 22:09:54,427 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/2] - (DEBUG) - Secured DELETE /admin/departments/2 - 
+2026-10-24 22:09:57,212 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/3] - (DEBUG) - Securing DELETE /admin/departments/3 - 
+2026-10-24 22:09:57,227 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/3] - (DEBUG) - Secured DELETE /admin/departments/3 - 
+2026-10-24 22:09:58,405 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/3] - (DEBUG) - Securing DELETE /admin/departments/3 - 
+2026-10-24 22:09:58,415 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/3] - (DEBUG) - Secured DELETE /admin/departments/3 - 
+2026-10-24 22:10:00,434 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/4] - (DEBUG) - Securing DELETE /admin/departments/4 - 
+2026-10-24 22:10:00,447 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/4] - (DEBUG) - Secured DELETE /admin/departments/4 - 
+2026-10-24 22:10:01,564 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/4] - (DEBUG) - Securing DELETE /admin/departments/4 - 
+2026-10-24 22:10:01,578 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/4] - (DEBUG) - Secured DELETE /admin/departments/4 - 
+2026-10-24 22:10:03,524 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/5] - (DEBUG) - Securing DELETE /admin/departments/5 - 
+2026-10-24 22:10:03,533 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/5] - (DEBUG) - Secured DELETE /admin/departments/5 - 
+2026-10-24 22:10:05,743 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/5] - (DEBUG) - Securing DELETE /admin/departments/5 - 
+2026-10-24 22:10:05,754 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/5] - (DEBUG) - Secured DELETE /admin/departments/5 - 
+2026-10-24 22:10:12,193 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/] - (DEBUG) - Securing DELETE /admin/departments/ - 
+2026-10-24 22:10:12,201 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/] - (DEBUG) - Secured DELETE /admin/departments/ - 
+2026-10-24 22:10:12,213 - org.springframework.security.web.FilterChainProxy - [Securing GET /error] - (DEBUG) - Securing GET /error - 
+2026-10-24 22:10:12,217 - org.springframework.security.web.authentication.AnonymousAuthenticationFilter - [Set SecurityContextHolder to anonymous SecurityContext] - (DEBUG) - Set SecurityContextHolder to anonymous SecurityContext - 
+2026-10-24 22:10:12,217 - org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - [Pre-authenticated entry point called. Rejecting access] - (DEBUG) - Pre-authenticated entry point called. Rejecting access - 
+2026-10-24 22:10:14,873 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/1] - (DEBUG) - Securing DELETE /admin/departments/1 - 
+2026-10-24 22:10:14,881 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/1] - (DEBUG) - Secured DELETE /admin/departments/1 - 
+2026-10-24 22:10:16,195 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/] - (DEBUG) - Securing DELETE /admin/departments/ - 
+2026-10-24 22:10:16,247 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/] - (DEBUG) - Secured DELETE /admin/departments/ - 
+2026-10-24 22:10:16,259 - org.springframework.security.web.FilterChainProxy - [Securing GET /error] - (DEBUG) - Securing GET /error - 
+2026-10-24 22:10:16,264 - org.springframework.security.web.authentication.AnonymousAuthenticationFilter - [Set SecurityContextHolder to anonymous SecurityContext] - (DEBUG) - Set SecurityContextHolder to anonymous SecurityContext - 
+2026-10-24 22:10:16,264 - org.springframework.security.web.authentication.Http403ForbiddenEntryPoint - [Pre-authenticated entry point called. Rejecting access] - (DEBUG) - Pre-authenticated entry point called. Rejecting access - 
+2026-10-24 22:10:18,122 - org.springframework.security.web.FilterChainProxy - [Securing DELETE /admin/departments/1] - (DEBUG) - Securing DELETE /admin/departments/1 - 
+2026-10-24 22:10:18,130 - org.springframework.security.web.FilterChainProxy - [Secured DELETE /admin/departments/1] - (DEBUG) - Secured DELETE /admin/departments/1 - 
+2026-10-24 22:10:25,296 - org.springframework.boot.tomcat.GracefulShutdown - [Commencing graceful shutdown. Waiting for active requests to complete] - (INFO) - Commencing graceful shutdown. Waiting for active requests to complete - 
+2026-10-24 22:10:25,311 - org.springframework.boot.tomcat.GracefulShutdown - [Graceful shutdown complete] - (INFO) - Graceful shutdown complete - 
+2026-10-24 22:10:25,327 - org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - [Closing JPA EntityManagerFactory for persistence unit 'default'] - (INFO) - Closing JPA EntityManagerFactory for persistence unit 'default' - 
+2026-10-24 22:10:25,343 - com.zaxxer.hikari.HikariDataSource - [HikariPool-1 - Shutdown initiated...] - (INFO) - HikariPool-1 - Shutdown initiated... - 
+2026-10-24 22:10:25,357 - com.zaxxer.hikari.HikariDataSource - [HikariPool-1 - Shutdown completed.] - (INFO) - HikariPool-1 - Shutdown completed. - 
